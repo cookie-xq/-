@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "git-open": "^2.1.0",
-    "global": "^4.4.0"
-  }
-}
