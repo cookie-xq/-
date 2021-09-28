@@ -12,8 +12,6 @@
 输入：[2,2,2,0,1]  
 输出：0  
 
-注意：本题与主站 154 题相同：https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
-
 ## 🧠 解题思路
 根据题意，我们第一时间就能通过暴破来解决，用一个变量记录一下当前遍历过程中遇到的最小值是多少，然后遍历结束后，返回最小值即可。
 
@@ -39,7 +37,7 @@ middlemiddle 既不大于 leftleft 指针的值，也不小于 rightright 指针
 var minArray = function(numbers) {
     let left = 0, right = numbers.length - 1;
     while(left < right){
-        let middle = left + ~~((right - left) / 2);
+        let middle = left + ~~((right - left) / 2); //~~ 取整 ~是二进制的按位取反
         if(numbers[middle] > numbers[right]) left = middle + 1;
         else if(numbers[middle] < numbers[right]) right = middle;
         else right--;
