@@ -62,4 +62,7 @@ var hammingWeight = function(n) {
 ```
 复杂度分析：
 时间复杂度：O(logn)。循环次数等于 n 的二进制位中 1 的个数，最坏情况下 n 的二进制位全部为 1。我们需要循环 nlogn 次。  
-空间复杂度：O(1)，我们只需要常数的空间保存若干变量。
+空间复杂度：O(1)，我们只需要常数的空间保存若干变量。  
+
+作者：LeetCode-Solution  
+链接：https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/solution/er-jin-zhi-zhong-1de-ge-shu-by-leetcode-50bb1/

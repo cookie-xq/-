@@ -20,8 +20,8 @@
 1 <= nums.length <= 100  
 0 <= nums[i] <= 400
 
-## 🍭 示例代码
-```
+## 示例代码
+```javascript
 // 1. 记忆化搜索
 var rob = function(nums) {
     const n = nums.length
@@ -91,6 +91,6 @@ var rob4 = function(nums) {
 
     return currMax
 }
-//作者：tangweiqun
-//链接：https://leetcode-cn.com/problems/Gu0c2T/solution/jian-dan-yi-dong-javac-pythonjs-da-jia-j-kc58/
 ```
+作者：tangweiqun  
+链接：https://leetcode-cn.com/problems/Gu0c2T/solution/jian-dan-yi-dong-javac-pythonjs-da-jia-j-kc58/
